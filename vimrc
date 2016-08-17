@@ -102,5 +102,7 @@ set history=500
 set colorcolumn=80
 highlight Colorcolumn ctermbg=0
 
-" Search Ignore Case
+" Search
 set ignorecase smartcase
+set hlsearch
+set incsearch
