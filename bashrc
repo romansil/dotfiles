@@ -119,7 +119,7 @@ if ! shopt -oq posix; then
 fi
 
 mkcd () {
-    mkdir "$1"
+    mkdir -p "$1"
     cd "$1"
 }
 
