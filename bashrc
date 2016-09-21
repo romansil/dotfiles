@@ -124,3 +124,5 @@ mkcd () {
 }
 
 alias sb='sudo bash'
+
+export MPD_HOST=10.0.0.111
