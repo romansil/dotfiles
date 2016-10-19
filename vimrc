@@ -112,3 +112,5 @@ highlight Colorcolumn ctermbg=0
 set ignorecase smartcase
 set hlsearch
 set incsearch
+
+syntax on
