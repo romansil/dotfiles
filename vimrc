@@ -91,6 +91,12 @@ if has("autocmd")
     "---------------------------------------------------------------------------
     " C files
     autocmd FileType c setlocal ts=2 sts=0 sw=2 expandtab smarttab
+    "---------------------------------------------------------------------------
+    " CPP files
+    autocmd FileType cpp setlocal ts=2 sts=0 sw=2 expandtab smarttab
+    "---------------------------------------------------------------------------
+    " H files
+    autocmd FileType h setlocal ts=2 sts=0 sw=2 expandtab smarttab
 endif
 
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
