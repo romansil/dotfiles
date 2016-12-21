@@ -1,6 +1,21 @@
 " vimrc of Roman Silberschneider
 
+
+" vundle plugin manager
 set nocompatible
+filetype off                  " required
+" set the runtime path to include Vundle and initialize
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
 
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start

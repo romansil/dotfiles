@@ -92,7 +92,6 @@ fi
 alias ll='ls -lh'
 alias la='ls -lha'
 alias l='ls -CF'
-alias git='LANG=en_GB git'
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -126,3 +125,8 @@ mkcd () {
 alias sb='sudo bash'
 
 export MPD_HOST=10.0.0.111
+export WORKON_HOME=~/.virtualenvs
+source /usr/bin/virtualenvwrapper.sh
+
+# arch git bash completion
+source /usr/share/git/completion/git-completion.bash
