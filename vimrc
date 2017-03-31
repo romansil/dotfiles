@@ -12,6 +12,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'Chiel92/vim-autoformat'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -127,5 +128,7 @@ highlight Colorcolumn ctermbg=0
 set ignorecase smartcase
 set hlsearch
 set incsearch
+
+set nowrap
 
 syntax on
