@@ -130,3 +130,6 @@ source /usr/bin/virtualenvwrapper.sh
 
 # arch git bash completion
 source /usr/share/git/completion/git-completion.bash
+
+# disable soft flow control (ctrl-s freezes vim)
+stty -ixon
