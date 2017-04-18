@@ -113,6 +113,12 @@ if has("autocmd")
     "---------------------------------------------------------------------------
     " H files
     autocmd FileType h setlocal ts=2 sts=0 sw=2 expandtab smarttab
+    "---------------------------------------------------------------------------
+    " JSON files
+    autocmd FileType json setlocal ts=2 sts=0 sw=2 expandtab smarttab
+    "---------------------------------------------------------------------------
+    " YAML files
+    autocmd FileType yaml setlocal ts=2 sts=0 sw=2 expandtab smarttab
 endif
 
 set tabstop=4 softtabstop=0 expandtab shiftwidth=4 smarttab
