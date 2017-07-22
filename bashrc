@@ -92,6 +92,8 @@ fi
 alias ll='ls -lh'
 alias la='ls -lha'
 alias l='ls -CF'
+alias cp='cp -i' # ask to overwrite
+alias mv='mv -i' # ask to overwrite
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
@@ -126,6 +128,7 @@ alias sb='sudo bash'
 
 export MPD_HOST=10.0.0.111
 export WORKON_HOME=~/.virtualenvs
+export ANSIBLE_ROLES_PATH=~/.ansible/roles/
 source /usr/bin/virtualenvwrapper.sh
 
 # arch git bash completion

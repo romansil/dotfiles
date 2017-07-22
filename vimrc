@@ -138,3 +138,8 @@ set incsearch
 set nowrap
 
 syntax on
+
+" Hide backup files in file browser
+let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
+
+map <F2> :w<CR> :make<CR>
