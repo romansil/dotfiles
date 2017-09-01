@@ -129,10 +129,10 @@ alias sb='sudo bash'
 export MPD_HOST=10.0.0.111
 export WORKON_HOME=~/.virtualenvs
 export ANSIBLE_ROLES_PATH=~/.ansible/roles/
-source /usr/bin/virtualenvwrapper.sh
+#source /usr/bin/virtualenvwrapper.sh
 
 # arch git bash completion
-source /usr/share/git/completion/git-completion.bash
+#source /usr/share/git/completion/git-completion.bash
 
 # disable soft flow control (ctrl-s freezes vim)
 stty -ixon
