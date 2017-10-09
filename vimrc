@@ -13,6 +13,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'rust-lang/rust.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
