@@ -126,7 +126,6 @@ mkcd () {
 
 alias sb='sudo bash'
 
-export MPD_HOST=10.0.0.111
 export WORKON_HOME=~/.virtualenvs
 export ANSIBLE_ROLES_PATH=~/.ansible/roles/
 #source /usr/bin/virtualenvwrapper.sh
