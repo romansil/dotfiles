@@ -1,1 +1,3 @@
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+ZSH_CUSTOM=~/.zsh_custom/
+ZSH_THEME="bullet-train"
