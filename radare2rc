@@ -1,0 +1,10 @@
+
+e asm.describe = true
+e asm.bytes = false
+
+
+# orange gray theme
+eco ogray
+
+e scr.utf8 = true
+e scr.utf8.curvy = true
