@@ -8,3 +8,5 @@ eco ogray
 
 e scr.utf8 = true
 e scr.utf8.curvy = true
+
+e asm.comments = true
