@@ -10,3 +10,5 @@ e scr.utf8 = true
 e scr.utf8.curvy = true
 
 e asm.comments = true
+
+e anal.jmptbl = true
