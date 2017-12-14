@@ -144,3 +144,7 @@ syntax on
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
 map <F2> :w<CR> :make<CR>
+
+
+" write with sudo
+command W w !sudo tee % >/dev/null
