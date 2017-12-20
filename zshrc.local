@@ -1,1 +1,5 @@
+{% if ansible_os_family == "Archlinux" %}
+source /usr/bin/virtualenvwrapper.sh
+{% else %}
 source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+{% endif %}
