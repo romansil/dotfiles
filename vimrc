@@ -92,6 +92,10 @@ set relativenumber
 
 "------------------------------------------------------------------------------
 " Spellchecking
+
+" toggle spellchecking
+map <F3> :set invspell<CR>
+
 augroup gitcommit
     " we want spelling for git commits
     autocmd FileType gitcommit setlocal spell        
