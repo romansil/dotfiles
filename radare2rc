@@ -1,6 +1,6 @@
 
 e asm.describe = true
-e asm.bytes = false
+e asm.bytes = true
 
 
 # orange gray theme
