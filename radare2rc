@@ -3,8 +3,8 @@ e asm.describe = true
 e asm.bytes = true
 
 
-# orange gray theme
-eco ogray
+# theme
+eco cutter
 
 e scr.utf8 = true
 e scr.utf8.curvy = true
