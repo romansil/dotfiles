@@ -14,6 +14,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'Chiel92/vim-autoformat'
 Plugin 'rust-lang/rust.vim'
+Plugin 'lervag/vimtex'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
